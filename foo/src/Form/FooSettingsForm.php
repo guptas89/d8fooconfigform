@@ -16,7 +16,7 @@ class FooSettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function getFormId() {
-    return 'foo.settings';
+    return 'foo_settings';
   }
 
   /**
