@@ -1,0 +1,7 @@
+foo.settings:
+    path: '/admin/config/system/foo'
+    defaults:
+        _form: 'Drupal\foo\Form\FooSettingsForm'
+        _title: 'Example setting form.'
+    requirements:
+        _permission: 'administer site configuration'
